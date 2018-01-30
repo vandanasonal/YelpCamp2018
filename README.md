@@ -1,4 +1,4 @@
-# YelpCamp
+# YelpCamp2018
 >YelpCamp -A Node.js web application to display and manage the campgrounds from all around the world, a project from the Web Developer Bootcamp by Colt Steele at Udemy.
 
 ## Live Demo
@@ -44,7 +44,7 @@ https://limitless-sea-35812.herokuapp.com/
 
 ### Clone or download this repository
 
-git clone https://github.com/vandanasonal/YelpCamp.git
+git clone https://github.com/vandanasonal/YelpCamp2018.git
 
 ### Install dependencies
 
