@@ -1,0 +1,91 @@
+.navbar{
+    background-color: #00264d;
+    margin-bottom:20px;
+}
+.navbar a{
+    color: white;
+    display: block;
+}
+.navbar a:hover{
+    color:white;
+}
+.navbar-toggler-icon{
+    color:white;
+}
+.jumbotron{
+    background-image: url(https://meccms.imgix.net/wp-content/uploads/2017/02/winter-camping-tent-GettyImages-531210801.jpg?v=1488222550&w=1100&h=440&auto=format&q=40&bg=FFF);
+    width: 100%;
+  height: 350px;
+ background-repeat: no-repeat;
+ background-size: cover;
+  z-index: -1;
+  opacity: 1.5;
+  
+
+    
+}
+.jumbotron-header h1,.jumbotron-header p{
+    color:white;
+}
+.jumbotron .btn-lg{
+    background-color:white;
+    color:black;
+}
+.btn-login,.btn-signup, .submit{
+     background-color:#00264d;
+     color:white;
+}
+.submit:hover{
+    color:white;
+}
+.custom-btn{
+    background: none;
+    border: 1px solid #00264d;
+    color:#00264d;
+}
+
+.custom-btn: hover{
+    color:black;
+   /* background-color: #13b783;*/
+}
+
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+.camp-search{
+    margin: 0 auto;
+}
+
+.card img{
+    width: 100;
+}
+.card {
+    padding:0;
+}
+.caption{
+    padding:9px;
+}
+.comment{
+    margin: 0 9px;
+}
+.time{
+    margin-right: 15px;
+}
+.form-delete{
+    display: inline;
+}
+.profile-bio{
+    margin: 10px;
+}
+.profile-img{
+    height:300px;
+    width:100%;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom:10px;
+}

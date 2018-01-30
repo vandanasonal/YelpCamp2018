@@ -1,0 +1,39 @@
+<% include ../partials/header %>
+<div >
+    <h1 style="text-align: center">Edit Profile</h1>
+    <div style="width: 45%; margin: 25px auto;">
+        <form action="/users/<%= user._id %>?_method=PUT" method="POST">
+            <div class="form-group">
+                <label for="firstName"><b>First Name :</b></label>
+                <input class="form-control" id="firstName" type="text" name="user[firstName]" value="<%= user.firstName %>" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName"><b>Last Name :</b></label>
+                <input class="form-control" id="lastName" type="text" name="user[lastName]" value="<%= user.lastName %>" required>
+            </div>
+            <div class="form-group">
+                <label for="username"><b>Username :</b></label>
+                <input class="form-control" id="username" type="text" name="user[username]" value="<%= user.username %>" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Email Address :</b></label>
+                <input class="form-control" id="email" type="email" name="user[email]" value="<%= user.email %>" required>
+            </div>
+            <div class="form-group">
+                <label for="password"><b>Password :</b></label>
+                <input class="form-control"id="password" type="password" name="user[password]" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <label for="avatar"><b>Avatar Url :</b></label>
+                <input class="form-control" id="avatar" type="text" name="user[avatar]" value="<%= user.avatar %>">
+            </div>
+            
+            <div class="form-group">
+                <button class="btn btn-lg btn-block btn-signup">Update</button>
+            </div>
+            
+        </form>
+        <a class="back" href="/campgrounds">Go Back</a>
+    </div>
+</div>
+<% include ../partials/footer %>
